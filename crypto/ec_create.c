@@ -15,5 +15,6 @@ EC_KEY *ec_create()
     return NULL;
   EC_KEY_set_group(key, group);
   EC_KEY_generate_key(key);
+  EC_GROUP_free(group);
   return key;
 }
