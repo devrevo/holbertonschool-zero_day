@@ -1,6 +1,5 @@
 #include <stdlib.h>
 #include <stdio.h>
-#include <openssl/pem.h>
 
 #include "hblk_crypto.h"
 
